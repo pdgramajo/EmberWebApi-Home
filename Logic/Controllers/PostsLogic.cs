@@ -20,6 +20,13 @@ namespace Logic.Controllers
                    new SqlParameter("param3", param3)
                );
          
+       //using (var db = new EmberContext())
+        //{
+        //    //var data = db.Database.SqlQuery<MiClass>("storedProcedure").ToList();
+
+        //   // return new { people = data };                
+        //}
+
          * 
          */
 
@@ -29,9 +36,9 @@ namespace Logic.Controllers
 
             using (var db = new EmberContext())
             {
-                var comments = db.Database.SqlQuery<Post>("GetAllPosts").ToList();
+                var posts = db.Database.SqlQuery<Post>("GetAllPosts").ToList();
 
-                return new { posts = comments };
+                return new { posts = posts };
             }
         }
 
@@ -50,13 +57,5 @@ namespace Logic.Controllers
             }
         }
 
-
-
-        //using (var db = new EmberContext())
-        //{
-        //    //var data = db.Database.SqlQuery<MiClass>("storedProcedure").ToList();
-
-        //   // return new { people = data };                
-        //}
     }
 }
