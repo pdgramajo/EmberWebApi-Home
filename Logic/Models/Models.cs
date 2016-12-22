@@ -8,23 +8,26 @@ namespace Logic.Models
 {
     public class Post
     {
-        public int Id { get; set; }
+        public int id { get; set; }
 
-        public string Title { get; set; }
+        public string title { get; set; }
 
-        public string Description { get; set; }
+        public string description { get; set; }
 
+        public List<int> comments { get; set; }
     }
 
     public class Comment
     {
-        public int Id { get; set; }
+        public int id { get; set; }
 
-        public int PostId { get; set; }
+        public int postId { get; set; }
 
-        public string Text { get; set; }
+        public string text { get; set; }
 
-        public DateTime Date { get; set; }
+        public DateTime date { get; set; }
+
+       // public Post post { get; set; }
 
     }
 }

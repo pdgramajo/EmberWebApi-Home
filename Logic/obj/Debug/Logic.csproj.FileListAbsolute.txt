@@ -8,3 +8,13 @@ F:\Ember Proyects\cuestionarios\backend\EmberWebApi\Logic\bin\Debug\EntityFramew
 F:\Ember Proyects\cuestionarios\backend\EmberWebApi\Logic\bin\Debug\EntityFramework.xml
 F:\Ember Proyects\cuestionarios\backend\EmberWebApi\Logic\bin\Debug\EntityFramework.SqlServer.xml
 F:\Ember Proyects\cuestionarios\backend\EmberWebApi\Logic\obj\Debug\Logic.csprojResolveAssemblyReference.cache
+C:\Users\pgramajo.JBKNOWLEDGE\Documents\Visual Studio 2015\Projects\newapi\Logic\bin\Debug\Logic.dll.config
+C:\Users\pgramajo.JBKNOWLEDGE\Documents\Visual Studio 2015\Projects\newapi\Logic\bin\Debug\Logic.dll
+C:\Users\pgramajo.JBKNOWLEDGE\Documents\Visual Studio 2015\Projects\newapi\Logic\bin\Debug\Logic.pdb
+C:\Users\pgramajo.JBKNOWLEDGE\Documents\Visual Studio 2015\Projects\newapi\Logic\bin\Debug\EntityFramework.dll
+C:\Users\pgramajo.JBKNOWLEDGE\Documents\Visual Studio 2015\Projects\newapi\Logic\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\pgramajo.JBKNOWLEDGE\Documents\Visual Studio 2015\Projects\newapi\Logic\bin\Debug\EntityFramework.xml
+C:\Users\pgramajo.JBKNOWLEDGE\Documents\Visual Studio 2015\Projects\newapi\Logic\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\pgramajo.JBKNOWLEDGE\Documents\Visual Studio 2015\Projects\newapi\Logic\obj\Debug\Logic.csprojResolveAssemblyReference.cache
+C:\Users\pgramajo.JBKNOWLEDGE\Documents\Visual Studio 2015\Projects\newapi\Logic\obj\Debug\Logic.dll
+C:\Users\pgramajo.JBKNOWLEDGE\Documents\Visual Studio 2015\Projects\newapi\Logic\obj\Debug\Logic.pdb

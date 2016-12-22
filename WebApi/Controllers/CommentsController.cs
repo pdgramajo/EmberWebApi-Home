@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Logic.Controllers;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
@@ -10,15 +11,15 @@ namespace WebApi.Controllers
     public class CommentsController : ApiController
     {
         // GET: api/Comments
-        public IEnumerable<string> Get()
+        public dynamic Get()
         {
-            return new string[] { "value1", "value2" };
+            return CommentLogic.GetAllComments();
         }
 
         // GET: api/Comments/5
-        public string Get(int id)
+        public dynamic Get(int id)
         {
-            return "value";
+            return CommentLogic.GetCommentById(id);
         }
 
         // POST: api/Comments
