@@ -54,9 +54,9 @@ namespace Logic.Controllers
 
         //using (var db = new EmberContext())
         //{
-        //    //var widgets = db.Database.SqlQuery<Widget>("usp_SmartInsight_Widget_GetAll").ToList();
+        //    //var data = db.Database.SqlQuery<MiClass>("storedProcedure").ToList();
 
-        //   // return new { people = widgets };                
+        //   // return new { people = data };                
         //}
     }
 }
