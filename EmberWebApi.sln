@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{248787CF-E46E-44E3-B72C-A01C53A2D9DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logic", "Logic\Logic.csproj", "{8D8EA8D8-FA73-461E-AAEA-4BDAD58BC858}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{248787CF-E46E-44E3-B72C-A01C53A2D9DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{248787CF-E46E-44E3-B72C-A01C53A2D9DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{248787CF-E46E-44E3-B72C-A01C53A2D9DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{248787CF-E46E-44E3-B72C-A01C53A2D9DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D8EA8D8-FA73-461E-AAEA-4BDAD58BC858}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D8EA8D8-FA73-461E-AAEA-4BDAD58BC858}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D8EA8D8-FA73-461E-AAEA-4BDAD58BC858}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D8EA8D8-FA73-461E-AAEA-4BDAD58BC858}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
