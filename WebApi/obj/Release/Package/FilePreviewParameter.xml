@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="emberwebapi" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^F:\\Ember\ Proyects\\cuestionarios\\backend\\EmberWebApi\\WebApi\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^F:\\Ember\ Proyects\\cuestionarios\\backend\\EmberWebApi\\WebApi\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="" value="Data Source=mssql3.gear.host;Persist Security Info=True;User ID=emberdb;Password=Ty9n~ISP6_jV" tags="">
+    <parameterEntry kind="XmlFile" scope="F:\\Ember\ Proyects\\cuestionarios\\backend\\EmberWebApi\\WebApi\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="Logic.DBConnection.EmberContext-Web.config Connection String" description="" value="Data Source=.\SQLEXPRESS;Initial Catalog=emberdb;Integrated Security=True" tags="">
+    <parameterEntry kind="XmlFile" scope="F:\\Ember\ Proyects\\cuestionarios\\backend\\EmberWebApi\\WebApi\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Logic.DBConnection.EmberContext']/@connectionString" />
+  </parameter>
+  <parameter name="SBNContext-Web.config Connection String" description="" value="data source=mssql3.gear.host;Initial Catalog=emberdb;Integrated Security=false;user id=emberdb;password=Ty9n~ISP6_jV;multipleactiveresultsets=True;Connection Timeout=300;" tags="">
+    <parameterEntry kind="XmlFile" scope="F:\\Ember\ Proyects\\cuestionarios\\backend\\EmberWebApi\\WebApi\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='SBNContext']/@connectionString" />
+  </parameter>
+</parameters>

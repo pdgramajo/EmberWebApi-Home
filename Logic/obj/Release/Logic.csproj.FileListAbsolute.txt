@@ -1,0 +1,10 @@
+F:\Ember Proyects\cuestionarios\backend\EmberWebApi\Logic\bin\Release\Logic.dll.config
+F:\Ember Proyects\cuestionarios\backend\EmberWebApi\Logic\bin\Release\Logic.dll
+F:\Ember Proyects\cuestionarios\backend\EmberWebApi\Logic\bin\Release\Logic.pdb
+F:\Ember Proyects\cuestionarios\backend\EmberWebApi\Logic\bin\Release\EntityFramework.dll
+F:\Ember Proyects\cuestionarios\backend\EmberWebApi\Logic\bin\Release\EntityFramework.SqlServer.dll
+F:\Ember Proyects\cuestionarios\backend\EmberWebApi\Logic\bin\Release\EntityFramework.xml
+F:\Ember Proyects\cuestionarios\backend\EmberWebApi\Logic\bin\Release\EntityFramework.SqlServer.xml
+F:\Ember Proyects\cuestionarios\backend\EmberWebApi\Logic\obj\Release\Logic.csprojResolveAssemblyReference.cache
+F:\Ember Proyects\cuestionarios\backend\EmberWebApi\Logic\obj\Release\Logic.dll
+F:\Ember Proyects\cuestionarios\backend\EmberWebApi\Logic\obj\Release\Logic.pdb
