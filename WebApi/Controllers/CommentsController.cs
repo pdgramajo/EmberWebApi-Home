@@ -1,4 +1,5 @@
 ﻿using Logic.Controllers;
+using Logic.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -23,8 +24,9 @@ namespace WebApi.Controllers
         }
 
         // POST: api/Comments
-        public void Post([FromBody]string value)
+        public dynamic Post([FromBody] CommentDTO value)
         {
+            return CommentLogic.addComment(value.comment);
         }
 
         // PUT: api/Comments/5

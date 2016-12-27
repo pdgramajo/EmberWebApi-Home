@@ -1,4 +1,5 @@
 ﻿using Logic.Controllers;
+using Logic.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -28,8 +29,9 @@ namespace WebApi.Controllers
         }
 
         // PUT: api/Posts/5
-        public void Put(int id, [FromBody]string value)
+        public void Put(int id, [FromBody]PostDTO value)
         {
+            
         }
 
         // DELETE: api/Posts/5

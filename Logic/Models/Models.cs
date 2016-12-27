@@ -17,6 +17,11 @@ namespace Logic.Models
         public List<int> comments { get; set; }
     }
 
+    public class PostDTO
+    {
+        public Post post { get; set; }
+    }
+
     public class Comment
     {
         public int id { get; set; }
@@ -29,5 +34,10 @@ namespace Logic.Models
 
        // public Post post { get; set; }
 
+    }
+
+   public  class CommentDTO
+    {
+        public Comment comment { get; set; }
     }
 }

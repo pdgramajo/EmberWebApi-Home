@@ -48,43 +48,43 @@ namespace Logic.Controllers
         public static dynamic GetAllPosts()
         {
 
-            using (var db = new EmberContext())
-            {
-                var posts = db.Database.SqlQuery<Post>("GetAllPosts").ToList().Select(y => new Post() { 
-                                                                                                         id = y.id,
-                                                                                                         description = y.description,
-                                                                                                         title = y.title,
-                                                                                                         comments = CommentLogic.GetCommentByPostId(y.id)                 
-                });
+            //using (var db = new EmberContext())
+            //{
+            //    var posts = db.Database.SqlQuery<Post>("GetAllPosts").ToList().Select(y => new Post() { 
+            //                                                                                             id = y.id,
+            //                                                                                             description = y.description,
+            //                                                                                             title = y.title,
+            //                                                                                             comments = CommentLogic.GetCommentByPostId(y.id)                 
+            //    });
 
-                return new { posts = posts };
-            }
+            //    return new { posts = posts };
+            //}
 
-          //  return new { posts = getDataList() };
+            return new { posts = getDataList() };
         }
 
 
         public static dynamic GetPostsById(int id)
         {
 
-            using (var db = new EmberContext())
-            {
-                var post = db.Database.SqlQuery<Post>("GetPostsById @id", new SqlParameter("id", id)).Select(y => new Post() {
+            //using (var db = new EmberContext())
+            //{
+            //    var post = db.Database.SqlQuery<Post>("GetPostsById @id", new SqlParameter("id", id)).Select(y => new Post() {
                 
-                    id = y.id,
-                    description = y.description,
-                    title = y.description,
-                    comments = CommentLogic.GetCommentByPostId(y.id)                 
+            //        id = y.id,
+            //        description = y.description,
+            //        title = y.description,
+            //        comments = CommentLogic.GetCommentByPostId(y.id)                 
 
-                }).FirstOrDefault();
+            //    }).FirstOrDefault();
 
-                //var comments = db.Database.SqlQuery<Comment>("getCommentsByPostId @postid", new SqlParameter("postid", id)).ToList();
+            //    //var comments = db.Database.SqlQuery<Comment>("getCommentsByPostId @postid", new SqlParameter("postid", id)).ToList();
 
-                return new { post = post};
+            //    return new { post = post};
 
-            }
+            //}
 
-         //   return  new { post = getDataList().Find(x => x.id == id) };
+            return  new { post = getDataList().Find(x => x.id == id) };
 
         }
 
