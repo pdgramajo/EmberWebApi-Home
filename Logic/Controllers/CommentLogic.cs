@@ -35,19 +35,21 @@ namespace Logic.Controllers
             lista.Add(com9);
             lista.Add(com10);
 
-            //using (var db = new EmberContext())
-            //{
+            using (var db = new EmberContext())
+            {
 
-            //    return db.Database.SqlQuery<Comment>("getallcomments").ToList();
-            //}
+                return db.Database.SqlQuery<Comment>("getallcomments").ToList();
+            }
 
 
-            return lista;
+          //  return lista;
 
         }
 
         public static dynamic addComment(Comment comment)
         {
+
+
             return new { comment = new Comment() { id = 123, date = new DateTime(), postId = comment.postId, text = comment.text } };
 
         }
