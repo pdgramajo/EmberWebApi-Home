@@ -2,6 +2,7 @@
 using Logic.Models;
 using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -48,9 +49,24 @@ namespace Logic.Controllers
 
         public static dynamic addComment(Comment comment)
         {
+            try
+            {                
+                using (var db = new EmberContext())
+                {
+                    int commentid = db.Database.SqlQuery<int>("AddComment @text, @postId,@date ",
+                        new SqlParameter("@text", comment.text),
+                        new SqlParameter("@postId", comment.postId),
+                        new SqlParameter("@date", DateTime.Now)
+                        ).FirstOrDefault();
+                    return GetCommentById(commentid);
+                }
+            }
+            catch (Exception)
+            {
+                throw;
+            }
 
-
-            return new { comment = new Comment() { id = 123, date = new DateTime(), postId = comment.postId, text = comment.text } };
+            //return new { comment = new Comment() { id = 123, date = new DateTime(), postId = comment.postId, text = comment.text } };
 
         }
 

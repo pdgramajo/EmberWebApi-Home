@@ -28,3 +28,13 @@ C:\Users\pgramajo.JBKNOWLEDGE\Documents\Visual Studio 2015\Projects\EmberWebApi-
 C:\Users\pgramajo.JBKNOWLEDGE\Documents\Visual Studio 2015\Projects\EmberWebApi-Home\Logic\obj\Debug\Logic.csprojResolveAssemblyReference.cache
 C:\Users\pgramajo.JBKNOWLEDGE\Documents\Visual Studio 2015\Projects\EmberWebApi-Home\Logic\obj\Debug\Logic.dll
 C:\Users\pgramajo.JBKNOWLEDGE\Documents\Visual Studio 2015\Projects\EmberWebApi-Home\Logic\obj\Debug\Logic.pdb
+F:\Ember Proyects\final-app\backend\Logic\bin\Debug\Logic.dll.config
+F:\Ember Proyects\final-app\backend\Logic\bin\Debug\Logic.dll
+F:\Ember Proyects\final-app\backend\Logic\bin\Debug\Logic.pdb
+F:\Ember Proyects\final-app\backend\Logic\bin\Debug\EntityFramework.dll
+F:\Ember Proyects\final-app\backend\Logic\bin\Debug\EntityFramework.SqlServer.dll
+F:\Ember Proyects\final-app\backend\Logic\bin\Debug\EntityFramework.xml
+F:\Ember Proyects\final-app\backend\Logic\bin\Debug\EntityFramework.SqlServer.xml
+F:\Ember Proyects\final-app\backend\Logic\obj\Debug\Logic.csprojResolveAssemblyReference.cache
+F:\Ember Proyects\final-app\backend\Logic\obj\Debug\Logic.dll
+F:\Ember Proyects\final-app\backend\Logic\obj\Debug\Logic.pdb
