@@ -58,6 +58,9 @@ namespace Logic.Controllers
                     comments = CommentLogic.GetCommentByPostId(y.id)
                 });
 
+
+
+
                 return new { posts = posts };
             }
 
@@ -89,5 +92,24 @@ namespace Logic.Controllers
 
         }
 
+        public static dynamic AddNewPost(Post post)
+        {
+            try
+            {
+                using (var db = new EmberContext())
+                {
+                    int postId = db.Database.SqlQuery<int>("AddNewPost @title, @description ",
+                        new SqlParameter("@title", post.title),
+                        new SqlParameter("@description", post.description)                        
+                        ).FirstOrDefault();
+                    return GetPostsById(postId);
+                }
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+
+        }
     }
 }

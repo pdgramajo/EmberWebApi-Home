@@ -24,8 +24,10 @@ namespace WebApi.Controllers
         }
 
         // POST: api/Posts
-        public void Post([FromBody]string value)
+        public dynamic Post([FromBody]PostDTO value)
         {
+
+            return PostsLogic.AddNewPost(value.post);
         }
 
         // PUT: api/Posts/5

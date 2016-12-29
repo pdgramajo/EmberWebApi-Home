@@ -9,7 +9,7 @@ using System.Web.Http;
 
 namespace WebApi.Controllers
 {
-    public class CommentsController : ApiController
+    public class CommentsController : ApiController 
     {
         // GET: api/Comments
         public dynamic Get()
@@ -37,6 +37,7 @@ namespace WebApi.Controllers
         // DELETE: api/Comments/5
         public void Delete(int id)
         {
+            CommentLogic.DeleteComment(id);
         }
     }
 }

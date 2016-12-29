@@ -8,3 +8,15 @@ F:\Ember Proyects\cuestionarios\backend\EmberWebApi\Logic\bin\Release\EntityFram
 F:\Ember Proyects\cuestionarios\backend\EmberWebApi\Logic\obj\Release\Logic.csprojResolveAssemblyReference.cache
 F:\Ember Proyects\cuestionarios\backend\EmberWebApi\Logic\obj\Release\Logic.dll
 F:\Ember Proyects\cuestionarios\backend\EmberWebApi\Logic\obj\Release\Logic.pdb
+C:\Users\pgramajo.JBKNOWLEDGE\Documents\Visual Studio 2015\Projects\EmberWebApi-Home\Logic\bin\Release\Logic.dll.config
+C:\Users\pgramajo.JBKNOWLEDGE\Documents\Visual Studio 2015\Projects\EmberWebApi-Home\Logic\bin\Release\Logic.dll
+C:\Users\pgramajo.JBKNOWLEDGE\Documents\Visual Studio 2015\Projects\EmberWebApi-Home\Logic\bin\Release\Logic.pdb
+C:\Users\pgramajo.JBKNOWLEDGE\Documents\Visual Studio 2015\Projects\EmberWebApi-Home\Logic\bin\Release\EntityFramework.dll
+C:\Users\pgramajo.JBKNOWLEDGE\Documents\Visual Studio 2015\Projects\EmberWebApi-Home\Logic\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\pgramajo.JBKNOWLEDGE\Documents\Visual Studio 2015\Projects\EmberWebApi-Home\Logic\bin\Release\Newtonsoft.Json.dll
+C:\Users\pgramajo.JBKNOWLEDGE\Documents\Visual Studio 2015\Projects\EmberWebApi-Home\Logic\bin\Release\EntityFramework.xml
+C:\Users\pgramajo.JBKNOWLEDGE\Documents\Visual Studio 2015\Projects\EmberWebApi-Home\Logic\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\pgramajo.JBKNOWLEDGE\Documents\Visual Studio 2015\Projects\EmberWebApi-Home\Logic\bin\Release\Newtonsoft.Json.xml
+C:\Users\pgramajo.JBKNOWLEDGE\Documents\Visual Studio 2015\Projects\EmberWebApi-Home\Logic\obj\Release\Logic.csprojResolveAssemblyReference.cache
+C:\Users\pgramajo.JBKNOWLEDGE\Documents\Visual Studio 2015\Projects\EmberWebApi-Home\Logic\obj\Release\Logic.dll
+C:\Users\pgramajo.JBKNOWLEDGE\Documents\Visual Studio 2015\Projects\EmberWebApi-Home\Logic\obj\Release\Logic.pdb

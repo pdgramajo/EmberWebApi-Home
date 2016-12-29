@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace Logic.Models
 {
-    public class Post
+    public class Post 
     {
         public int id { get; set; }
 
@@ -22,7 +23,7 @@ namespace Logic.Models
         public Post post { get; set; }
     }
 
-    public class Comment
+    public class Comment 
     {
         public int id { get; set; }
 

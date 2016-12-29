@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <sitemanifest>
-  <IisApp path="F:\Ember Proyects\cuestionarios\backend\EmberWebApi\WebApi\obj\Release\Package\PackageTmp" managedRuntimeVersion="v4.0" />
-  <setAcl path="F:\Ember Proyects\cuestionarios\backend\EmberWebApi\WebApi\obj\Release\Package\PackageTmp" setAclResourceType="Directory" />
-  <setAcl path="F:\Ember Proyects\cuestionarios\backend\EmberWebApi\WebApi\obj\Release\Package\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
+  <IisApp path="C:\Users\pgramajo.JBKNOWLEDGE\Documents\Visual Studio 2015\Projects\EmberWebApi-Home\WebApi\obj\Release\Package\PackageTmp" managedRuntimeVersion="v4.0" />
+  <setAcl path="C:\Users\pgramajo.JBKNOWLEDGE\Documents\Visual Studio 2015\Projects\EmberWebApi-Home\WebApi\obj\Release\Package\PackageTmp" setAclResourceType="Directory" />
+  <setAcl path="C:\Users\pgramajo.JBKNOWLEDGE\Documents\Visual Studio 2015\Projects\EmberWebApi-Home\WebApi\obj\Release\Package\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
 </sitemanifest>

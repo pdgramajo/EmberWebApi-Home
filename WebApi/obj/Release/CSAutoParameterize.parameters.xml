@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
-  <parameter name="EmberContext-Web.config Connection String" description="EmberContext Connection String used in web.config by the application to access the database." defaultValue=" server=.\SQLEXPRESS;database=emberdb;Integrated Security=True;Connect Timeout=30" tags="SqlConnectionString">
-    <parameterEntry kind="XmlFile" scope="F:\\Ember\ Proyects\\cuestionarios\\backend\\EmberWebApi\\WebApi\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='EmberContext']/@connectionString" />
+  <parameter name="EmberContext-Web.config Connection String" description="EmberContext Connection String used in web.config by the application to access the database." defaultValue=" server=.\SQL2014EXPRESS;database=zdbexample;Integrated Security=True;Connect Timeout=30" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\pgramajo\.JBKNOWLEDGE\\Documents\\Visual\ Studio\ 2015\\Projects\\EmberWebApi-Home\\WebApi\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='EmberContext']/@connectionString" />
   </parameter>
   <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." defaultValue="DefaultConnection_ConnectionString" tags="SqlConnectionString">
-    <parameterEntry kind="XmlFile" scope="F:\\Ember\ Proyects\\cuestionarios\\backend\\EmberWebApi\\WebApi\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\pgramajo\.JBKNOWLEDGE\\Documents\\Visual\ Studio\ 2015\\Projects\\EmberWebApi-Home\\WebApi\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
   </parameter>
 </parameters>

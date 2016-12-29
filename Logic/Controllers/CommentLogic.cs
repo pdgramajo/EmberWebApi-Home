@@ -47,6 +47,25 @@ namespace Logic.Controllers
 
         }
 
+        public static void DeleteComment(int id)
+        {
+            try
+            {
+                using (var db = new EmberContext())
+                {
+                    var result = db.Database.SqlQuery<string>("DeleteCommentById @id",
+                        new SqlParameter("@id", id)
+                        ).FirstOrDefault();
+                   // return new { comment = result };
+                }
+            }
+            catch (Exception e)
+            {
+                throw;
+                //return new { comment = e };
+            }
+        }
+
         public static dynamic addComment(Comment comment)
         {
             try
