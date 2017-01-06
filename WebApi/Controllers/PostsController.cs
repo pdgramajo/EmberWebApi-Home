@@ -39,6 +39,7 @@ namespace WebApi.Controllers
         // DELETE: api/Posts/5
         public void Delete(int id)
         {
+            PostsLogic.DeletePost(id);
         }
     }
 }
