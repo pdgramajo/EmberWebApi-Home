@@ -21,6 +21,7 @@ namespace Logic.Models
     public class PostDTO
     {
         public Post post { get; set; }
+        public int id { get; set; }
     }
 
     public class Comment 
@@ -41,4 +42,46 @@ namespace Logic.Models
     {
         public Comment comment { get; set; }
     }
+
+    public class Category
+    {
+        public int id { get; set; }
+
+        public string  title { get; set; }
+
+        public string imageUrl { get; set; }
+
+        public string imageId { get; set; }
+
+
+    }
+
+    public class CategoryDTO
+    {
+        public Category category { get; set; }
+    }
+
+
+    public class Drink
+    {
+        public int id { get; set; }
+
+        public string name { get; set; }
+
+        public string description { get; set; }
+
+        public string imageUrl { get; set; }
+
+        public string imageId { get; set; }
+
+        public int categoryId { get; set; }
+
+    }
+
+    public class DrinkDTO
+    {
+        public Drink drink { get; set; }
+    }
+
+
 }

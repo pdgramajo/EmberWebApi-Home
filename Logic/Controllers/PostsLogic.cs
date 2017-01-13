@@ -45,6 +45,25 @@ namespace Logic.Controllers
             }
         }
 
+        public static void UpdatePost(int id ,Post post)
+        {
+            try
+            {
+                using (var db = new EmberContext())
+                {
+                    var result = db.Database.SqlQuery<string>("updatePost @id,@title,@description",
+                        new SqlParameter("@id", id),
+                        new SqlParameter("@title", post.title),
+                        new SqlParameter("@description", post.description)
+                        ).FirstOrDefault();
+                }
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+
         public static dynamic GetPostsById(int id)
         {
 

@@ -33,7 +33,7 @@ namespace WebApi.Controllers
         // PUT: api/Posts/5
         public void Put(int id, [FromBody]PostDTO value)
         {
-            
+            PostsLogic.UpdatePost(id,value.post);
         }
 
         // DELETE: api/Posts/5
