@@ -1,4 +1,5 @@
 ﻿using Logic.Controllers;
+using Microsoft.AspNet.Identity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,12 +9,13 @@ using System.Web.Http;
 
 namespace WebApi.Controllers
 {
+   
     public class DrinksController : ApiController
     {
         // GET: api/Drinks
         public dynamic Get()
         {
-            return "value";
+            return DrinksLogic.GetAllDrinks();
         }
 
         // GET: api/Drinks/5

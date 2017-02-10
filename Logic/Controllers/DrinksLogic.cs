@@ -25,6 +25,17 @@ namespace Logic.Controllers
             }
         }
 
+        public static dynamic GetAllDrinks()
+        {
+            using (var db = new EmberContext())
+            {
+                var drinks = db.Database.SqlQuery<Drink>("GetAllDrinks").ToList();
+
+                return new { drinks = drinks };
+
+            }
+        }
+
         public static dynamic GetDrinksById(int id)
         {
             using (var db = new EmberContext())

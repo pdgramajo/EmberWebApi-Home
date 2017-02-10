@@ -56,6 +56,7 @@
     <Compile Include="Controllers\CategoriesLogic.cs" />
     <Compile Include="Controllers\CommentLogic.cs" />
     <Compile Include="Controllers\DrinksLogic.cs" />
+    <Compile Include="Controllers\LoginLogic.cs" />
     <Compile Include="Controllers\PostsLogic.cs" />
     <Compile Include="DBConnections\EmberContext.cs" />
     <Compile Include="Models\Models.cs" />

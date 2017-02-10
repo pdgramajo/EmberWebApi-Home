@@ -10,6 +10,8 @@ using Microsoft.Owin.Security;
 using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.OAuth;
 using WebApi.Models;
+using Logic.Models;
+using Logic.Controllers;
 
 namespace WebApi.Providers
 {
@@ -29,25 +31,68 @@ namespace WebApi.Providers
 
         public override async Task GrantResourceOwnerCredentials(OAuthGrantResourceOwnerCredentialsContext context)
         {
-            var userManager = context.OwinContext.GetUserManager<ApplicationUserManager>();
+            try { 
 
-            ApplicationUser user = await userManager.FindAsync(context.UserName, context.Password);
+            if (string.IsNullOrWhiteSpace(context.UserName))
+            {
+                context.SetError("Username", "The Username is Required");
+                return;
+            }
+            if (string.IsNullOrWhiteSpace(context.Password))
+            {
+                context.SetError("Password", "The Password is Required");
+                return;
+            }
 
-            if (user == null)
+            User person = LoginLogic.Login(context.UserName, context.Password);
+
+            //var userManager = context.OwinContext.GetUserManager<ApplicationUserManager>();
+
+            //ApplicationUser user = await userManager.FindAsync(context.UserName, context.Password);
+
+            if (person == null)
             {
                 context.SetError("invalid_grant", "The user name or password is incorrect.");
                 return;
             }
 
-            ClaimsIdentity oAuthIdentity = await user.GenerateUserIdentityAsync(userManager,
-               OAuthDefaults.AuthenticationType);
-            ClaimsIdentity cookiesIdentity = await user.GenerateUserIdentityAsync(userManager,
-                CookieAuthenticationDefaults.AuthenticationType);
+            if (person.GetType() == typeof(User))
+            {
+                if (person.Id == 0 )
+                {
+                    context.SetError("invalid_grant", "The Username or Password is incorrect.");
+                    return;
+                }
 
-            AuthenticationProperties properties = CreateProperties(user.UserName);
-            AuthenticationTicket ticket = new AuthenticationTicket(oAuthIdentity, properties);
-            context.Validated(ticket);
-            context.Request.Context.Authentication.SignIn(cookiesIdentity);
+                var identity = new ClaimsIdentity(context.Options.AuthenticationType);
+                identity.AddClaim(new Claim("sub", context.UserName));
+                identity.AddClaim(new Claim(ClaimTypes.Role, "user"));
+
+                AuthenticationProperties props = new AuthenticationProperties(new Dictionary<string, string>() {
+                        { "id", person.Id.ToString() },
+                        { "username", person.Email },
+                        { "name", person.FirstName + " " + person.LastName },
+                        { "email", person.Email},
+                        { "password", person.Password}
+                    });
+                AuthenticationTicket ticket = new AuthenticationTicket(identity, props);
+
+                context.Validated(ticket);
+            }
+            }
+            catch
+            {
+                throw;
+            }
+            //ClaimsIdentity oAuthIdentity = await user.GenerateUserIdentityAsync(userManager,
+            //   OAuthDefaults.AuthenticationType);
+            //ClaimsIdentity cookiesIdentity = await user.GenerateUserIdentityAsync(userManager,
+            //    CookieAuthenticationDefaults.AuthenticationType);
+
+            //AuthenticationProperties properties = CreateProperties(user.UserName);
+            //AuthenticationTicket ticket = new AuthenticationTicket(oAuthIdentity, properties);
+            //context.Validated(ticket);
+            //context.Request.Context.Authentication.SignIn(cookiesIdentity);
         }
 
         public override Task TokenEndpoint(OAuthTokenEndpointContext context)
