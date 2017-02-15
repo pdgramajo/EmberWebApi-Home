@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Logic.Models;
 using Logic.DBConnection;
 using System.Data.SqlClient;
+using System.Web.Http.Cors;
 
 namespace Logic.Controllers
 {

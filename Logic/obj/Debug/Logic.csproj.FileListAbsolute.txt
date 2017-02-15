@@ -34,9 +34,16 @@ C:\Users\pgramajo.JBKNOWLEDGE\Documents\Visual Studio 2015\Projects\EmberWebApi-
 C:\Users\pgramajo.JBKNOWLEDGE\Documents\Visual Studio 2015\Projects\EmberWebApi-Home\Logic\bin\Debug\EntityFramework.dll
 C:\Users\pgramajo.JBKNOWLEDGE\Documents\Visual Studio 2015\Projects\EmberWebApi-Home\Logic\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\pgramajo.JBKNOWLEDGE\Documents\Visual Studio 2015\Projects\EmberWebApi-Home\Logic\bin\Debug\Newtonsoft.Json.dll
+C:\Users\pgramajo.JBKNOWLEDGE\Documents\Visual Studio 2015\Projects\EmberWebApi-Home\Logic\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\pgramajo.JBKNOWLEDGE\Documents\Visual Studio 2015\Projects\EmberWebApi-Home\Logic\bin\Debug\System.Web.Cors.dll
+C:\Users\pgramajo.JBKNOWLEDGE\Documents\Visual Studio 2015\Projects\EmberWebApi-Home\Logic\bin\Debug\System.Web.Http.Cors.dll
+C:\Users\pgramajo.JBKNOWLEDGE\Documents\Visual Studio 2015\Projects\EmberWebApi-Home\Logic\bin\Debug\System.Web.Http.dll
 C:\Users\pgramajo.JBKNOWLEDGE\Documents\Visual Studio 2015\Projects\EmberWebApi-Home\Logic\bin\Debug\EntityFramework.xml
 C:\Users\pgramajo.JBKNOWLEDGE\Documents\Visual Studio 2015\Projects\EmberWebApi-Home\Logic\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\pgramajo.JBKNOWLEDGE\Documents\Visual Studio 2015\Projects\EmberWebApi-Home\Logic\bin\Debug\Newtonsoft.Json.xml
+C:\Users\pgramajo.JBKNOWLEDGE\Documents\Visual Studio 2015\Projects\EmberWebApi-Home\Logic\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\pgramajo.JBKNOWLEDGE\Documents\Visual Studio 2015\Projects\EmberWebApi-Home\Logic\bin\Debug\System.Web.Http.xml
+C:\Users\pgramajo.JBKNOWLEDGE\Documents\Visual Studio 2015\Projects\EmberWebApi-Home\Logic\bin\Debug\System.Web.Http.Cors.xml
+C:\Users\pgramajo.JBKNOWLEDGE\Documents\Visual Studio 2015\Projects\EmberWebApi-Home\Logic\obj\Debug\Logic.csprojResolveAssemblyReference.cache
 C:\Users\pgramajo.JBKNOWLEDGE\Documents\Visual Studio 2015\Projects\EmberWebApi-Home\Logic\obj\Debug\Logic.dll
 C:\Users\pgramajo.JBKNOWLEDGE\Documents\Visual Studio 2015\Projects\EmberWebApi-Home\Logic\obj\Debug\Logic.pdb
-C:\Users\pgramajo.JBKNOWLEDGE\Documents\Visual Studio 2015\Projects\EmberWebApi-Home\Logic\obj\Debug\Logic.csprojResolveAssemblyReference.cache

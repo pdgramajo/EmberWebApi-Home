@@ -12,6 +12,7 @@ using Microsoft.Owin.Security.OAuth;
 using WebApi.Models;
 using Logic.Models;
 using Logic.Controllers;
+using System.Web.Http.Cors;
 
 namespace WebApi.Providers
 {
@@ -72,8 +73,7 @@ namespace WebApi.Providers
                         { "id", person.Id.ToString() },
                         { "username", person.Email },
                         { "name", person.FirstName + " " + person.LastName },
-                        { "email", person.Email},
-                        { "password", person.Password}
+                        { "email", person.Email}
                     });
                 AuthenticationTicket ticket = new AuthenticationTicket(identity, props);
 

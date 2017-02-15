@@ -19,9 +19,9 @@ namespace WebApi
             //config.SuppressDefaultHostAuthentication();
             //config.Filters.Add(new HostAuthenticationFilter(OAuthDefaults.AuthenticationType));
 
-            var urlpermitidas = new EnableCorsAttribute("*", "*", "*");
+            //var urlpermitidas = new EnableCorsAttribute("*", "*", "*");
 
-            config.EnableCors(urlpermitidas);
+            //config.EnableCors(urlpermitidas);
 
             // Web API routes
             config.MapHttpAttributeRoutes();

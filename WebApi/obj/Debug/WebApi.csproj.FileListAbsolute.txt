@@ -270,3 +270,5 @@ C:\Users\pgramajo.JBKNOWLEDGE\Documents\Visual Studio 2015\Projects\EmberWebApi-
 C:\Users\pgramajo.JBKNOWLEDGE\Documents\Visual Studio 2015\Projects\EmberWebApi-Home\WebApi\obj\Debug\WebApi.csprojResolveAssemblyReference.cache
 C:\Users\pgramajo.JBKNOWLEDGE\Documents\Visual Studio 2015\Projects\EmberWebApi-Home\WebApi\obj\Debug\WebApi.dll
 C:\Users\pgramajo.JBKNOWLEDGE\Documents\Visual Studio 2015\Projects\EmberWebApi-Home\WebApi\obj\Debug\WebApi.pdb
+C:\Users\pgramajo.JBKNOWLEDGE\Documents\Visual Studio 2015\Projects\EmberWebApi-Home\WebApi\bin\Microsoft.Owin.Cors.dll
+C:\Users\pgramajo.JBKNOWLEDGE\Documents\Visual Studio 2015\Projects\EmberWebApi-Home\WebApi\bin\Microsoft.Owin.Cors.xml
